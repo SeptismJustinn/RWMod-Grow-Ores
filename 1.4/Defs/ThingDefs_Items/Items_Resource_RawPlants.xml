@@ -13,6 +13,8 @@
     <statBases>
       <MarketValue>1</MarketValue>
       <Mass>0.05</Mass>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
     </statBases>
     <!-- Just because I have no idea how to create a new category -->
     <thingCategories>
