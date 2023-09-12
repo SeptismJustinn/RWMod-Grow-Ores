@@ -2,8 +2,8 @@
 <Defs>
 
   <ThingDef Class="GrowableOres.OreCrop" ParentName="PlantBase">
-      <defName>GrowableOres_Plasteel</defName>
-      <label>plasteel nugget</label>
+      <defName>GrowableOres_PlasteelNuggetCrop</defName>
+      <label>plasteel nugget crops</label>
       <description>Scatter feed infused with mildly radioactive isotopes to attract tiny burrowing insects to tunnel towards the surface, pushing potentially valuable materials along with them.</description>
       <statBases>
         <MaxHitPoints>85</MaxHitPoints>
