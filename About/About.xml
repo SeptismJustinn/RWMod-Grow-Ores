@@ -3,8 +3,9 @@
 <ModMetaData>
 	<name>Growable Ores - Plasteel</name>
 	<author>SeptismJustinn</author>
-	<targetVersion>0.17.0</targetVersion>
-	<description>V1.0
-    This mod introduces a "growable" crop to be refined into plasteel. Created as a personal tutorial to rimworld modding.
+	<packageId>SeptismJustinn.GrowableOres</packageId>
+	<description>
+		This mod introduces a "growable" crop to be refined into plasteel. Created as a personal tutorial to rimworld modding.
 		</description>
+	<supportedVersions><li>1.4</li></supportedVersions>
 </ModMetaData>
