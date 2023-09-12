@@ -2,8 +2,8 @@
 <Defs>
 
   <ThingDef Class="GrowableOres.OreCrop" ParentName="PlantBase">
-      <defName>GrowableOres_PlasteelNuggetCrop</defName>
-      <label>plasteel nugget crops</label>
+      <defName>GrowableOres_PlasteelCrop</defName>
+      <label>plasteel crops</label>
       <description>Scatter feed infused with mildly radioactive isotopes to attract tiny burrowing insects to tunnel towards the surface, pushing potentially valuable materials along with them.</description>
       <statBases>
         <MaxHitPoints>85</MaxHitPoints>
@@ -22,10 +22,9 @@
         <sowWork>400</sowWork>
         <harvestWork>400</harvestWork>
         <harvestTag>Standard</harvestTag>
-        <harvestedThingDef>Plasteel</harvestedThingDef>
-        <harvestMinGrowth>1.0</harvestMinGrowth>
+        <harvestedThingDef>GrowableOres_PlasteelNuggets</harvestedThingDef>
         <!-- Yield full plasteel for now, find a way to create nugget defs -->
-        <harvestYield>5</harvestYield>
+        <harvestYield>4</harvestYield>
         <neverBlightable>true</neverBlightable>
         <sowMinSkill>15</sowMinSkill>
         <sowTags>
@@ -36,10 +35,10 @@
         <visualSizeRange>0.3~1.0</visualSizeRange>
         <wildOrder>3</wildOrder>
         <pollution>Any</pollution>
+        <comps>
+          <li Class="CompProperties_CreatesInfestations" />
+        </comps>
       </plant>
-      <comps>
-        <li Class="CompProperties_CreatesInfestations" />
-      </comps>
     </ThingDef>
 
   </Defs>
