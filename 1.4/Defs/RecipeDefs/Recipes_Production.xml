@@ -1,14 +1,27 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <RecipeDef Name="RecipeSmeltPlasteel">
-    <defName>SmeltPlasteel</defName>
+  <RecipeDef Name="RecipeSmeltPlasteel" Abstract="True">
+    <descriptionHyperlinks><ThingDef>Plasteel</ThingDef></descriptionHyperlinks>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>GrowableOres_PlasteelNuggets</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <recipeUsers>
+			<li>ElectricSmelter</li>
+      <li>FueledSmelter</li>
+		</recipeUsers>
+  </RecipeDef>
+
+  <RecipeDef ParentName="RecipeSmeltPlasteel">
+    <defName>GrowableOres_SmeltPlasteel</defName>
     <label>smelt plasteel from nuggets</label>
     <description>Using strong heat, burn off impurities and smelt plasteel into a more workable form.</description>
     <jobString>Smelting plasteel from nuggets.</jobString>
     <workAmount>500</workAmount>
-    <workSpeedStat>SmeltingSpeed</workSpeedStat>
-    <effectWorking>Smelt</effectWorking>
-    <soundWorking>Recipe_Smelt</soundWorking>
     <ingredients>
       <li>
         <filter>
@@ -22,22 +35,13 @@
     <products>
       <Plasteel>5</Plasteel>
     </products>
-    <fixedIngredientFilter>
-      <thingDefs>
-        <li>GrowableOres_PlasteelNuggets</li>
-      </thingDefs>
-    </fixedIngredientFilter>
-    <recipeUsers>
-			<li>ElectricSmithy</li>
-      <li>FueledSmithy</li>
-		</recipeUsers>
   </RecipeDef>
 
   <RecipeDef ParentName="RecipeSmeltPlasteel">
-    <defName>SmeltPlasteelBulk</defName>
-    <label>smelt more plasteel from more nuggets</label>
+    <defName>GrowableOres_SmeltPlasteelBulk</defName>
+    <label>smelt plasteel in bulk</label>
     <description>Using strong heat, burn off impurities and smelt plasteel into a more workable form. Smelting in bulk allows for more efficient use of forge space and less wasted heat.</description>
-    <jobString>Smelting plasteel from nuggets.</jobString>
+    <jobString>Smelting more plasteel from more nuggets.</jobString>
     <workAmount>3000</workAmount>
     <ingredients>
       <li>
