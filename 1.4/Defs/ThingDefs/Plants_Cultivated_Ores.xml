@@ -10,7 +10,7 @@
         <Nutrition>0.1</Nutrition>
       </statBases>
       <graphicData>
-        <texPath>Things/Plant/StrawberryPlant</texPath>
+        <texPath>Crops/Grown/Plasteel</texPath>
         <graphicClass>Graphic_Random</graphicClass>
       </graphicData>
       <selectable>true</selectable>
@@ -30,7 +30,7 @@
           <li>Ground</li>
         </sowTags>
         <topWindExposure>0.1</topWindExposure>
-        <immatureGraphicPath>Things/Plant/StrawberryPlant_Immature</immatureGraphicPath>
+        <immatureGraphicPath>Crops/Immature/Plasteel</immatureGraphicPath>
         <visualSizeRange>0.3~1.05</visualSizeRange>
         <wildOrder>3</wildOrder>
         <pollution>Any</pollution>
