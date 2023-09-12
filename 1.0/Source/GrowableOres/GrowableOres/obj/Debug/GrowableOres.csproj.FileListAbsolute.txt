@@ -1,4 +1,0 @@
-D:\Coding\Modding\Rimworld\RWMod-Grow-Ores\Assemblies\GrowableOres.dll
-D:\Coding\Modding\Rimworld\RWMod-Grow-Ores\Source\GrowableOres\GrowableOres\obj\Debug\GrowableOres.csproj.AssemblyReference.cache
-D:\Coding\Modding\Rimworld\RWMod-Grow-Ores\Source\GrowableOres\GrowableOres\obj\Debug\GrowableOres.csproj.CoreCompileInputs.cache
-D:\Coding\Modding\Rimworld\RWMod-Grow-Ores\Source\GrowableOres\GrowableOres\obj\Debug\GrowableOres.dll
