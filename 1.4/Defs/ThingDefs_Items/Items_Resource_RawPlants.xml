@@ -14,9 +14,9 @@
       <MarketValue>1</MarketValue>
       <Mass>0.05</Mass>
     </statBases>
+    <!-- Just because I have no idea how to create a new category -->
     <thingCategories>
       <li>PlantMatter</li>
-      <!-- Just because I have no idea how to create a new category -->
     </thingCategories>
   </ThingDef>
 

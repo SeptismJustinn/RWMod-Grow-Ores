@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <RecipeDef Name="RecipeSmeltPlasteel">
+    <defName>SmeltPlasteel</defName>
+    <label>smelt plasteel from nuggets</label>
+    <description>Using strong heat, burn off impurities and smelt plasteel into a more workable form.</description>
+    <jobString>Smelting plasteel from nuggets.</jobString>
+    <workAmount>500</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>GrowableOres_PlasteelNuggets</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products>
+      <Plasteel>5</Plasteel>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>GrowableOres_PlasteelNuggets</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <recipeUsers>
+			<li>ElectricSmithy</li>
+      <li>FueledSmithy</li>
+		</recipeUsers>
+  </RecipeDef>
+
+  <RecipeDef ParentName="RecipeSmeltPlasteel">
+    <defName>SmeltPlasteelBulk</defName>
+    <label>smelt more plasteel from more nuggets</label>
+    <description>Using strong heat, burn off impurities and smelt plasteel into a more workable form. Smelting in bulk allows for more efficient use of forge space and less wasted heat.</description>
+    <jobString>Smelting plasteel from nuggets.</jobString>
+    <workAmount>3000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>GrowableOres_PlasteelNuggets</li>
+          </thingDefs>
+        </filter>
+        <count>100</count>
+      </li>
+    </ingredients>
+    <products>
+      <Plasteel>50</Plasteel>
+    </products>
+  </RecipeDef>
+</Defs>
