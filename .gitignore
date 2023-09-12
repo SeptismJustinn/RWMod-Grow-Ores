@@ -134,4 +134,4 @@ instance/
 /back/migrations
 
 # Visual Studios stuff
-/.vs
+.vs/
