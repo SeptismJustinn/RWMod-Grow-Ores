@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-  <ThingDef ParentName="PlantBase">
-      <defName>GrowableOre_Plasteel_Nugget</defName>
+  <ThingDef Class="GrowableOres.OreCrop" ParentName="PlantBase">
+      <defName>GrowableOres_Plasteel</defName>
       <label>plasteel nugget</label>
       <description>Scatter feed infused with mildly radioactive isotopes to attract tiny burrowing insects to tunnel towards the surface, pushing potentially valuable materials along with them.</description>
       <statBases>
