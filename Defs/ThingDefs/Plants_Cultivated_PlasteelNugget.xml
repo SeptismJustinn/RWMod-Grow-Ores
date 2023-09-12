@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="PlantBase">
+      <defName>GrowableOre_Plasteel_Nugget</defName>
+      <label>plasteel nugget</label>
+      <description>Scatter feed infused with mildly radioactive isotopes to attract tiny burrowing insects to tunnel towards the surface, pushing potentially valuable materials along with them.</description>
+      <statBases>
+        <MaxHitPoints>85</MaxHitPoints>
+        <Nutrition>0.1</Nutrition>
+      </statBases>
+      <graphicData>
+        <texPath>Things/Plant/StrawberryPlant</texPath>
+        <graphicClass>Graphic_Random</graphicClass>
+      </graphicData>
+      <selectable>true</selectable>
+      <pathCost>14</pathCost>
+      <ingestible />
+      <plant>
+        <growDays>30</growDays>
+        <sowWork>1000</sowWork>
+        <dieIfLeafless>false</dieIfLeafless>
+        <harvestTag>Standard</harvestTag>
+        <harvestedThingDef>Plasteel</harvestedThingDef>
+        <!-- Yield full plasteel for now, find a way to create nugget defs -->
+        <harvestYield>5</harvestYield>
+        <neverBlightable>true</neverBlightable>
+        <sowMinSkill>15</sowMinSkill>
+        <sowTags>
+          <li>Ground</li>
+        </sowTags>
+        <topWindExposure>0.1</topWindExposure>
+        <immatureGraphicPath>Things/Plant/StrawberryPlant_Immature</immatureGraphicPath>
+        <visualSizeRange>0.3~1.05</visualSizeRange>
+        <wildOrder>3</wildOrder>
+        <pollution>Any</pollution>
+      </plant>
+    </ThingDef>
+
+  </Defs>
