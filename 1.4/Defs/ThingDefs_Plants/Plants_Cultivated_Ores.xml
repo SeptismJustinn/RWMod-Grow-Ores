@@ -35,9 +35,6 @@
         <visualSizeRange>0.3~1.0</visualSizeRange>
         <wildOrder>3</wildOrder>
         <pollution>Any</pollution>
-        <comps>
-          <li Class="CompProperties_CreatesInfestations" />
-        </comps>
       </plant>
     </ThingDef>
 
