@@ -6,7 +6,7 @@
 	<packageId>SeptismJustinn.GrowableOres</packageId>
 	<description>This mod introduces a "growable" crop to be refined into plasteel. Crops take ~30 days to "grow" and products can be refined at a smelter into usable plasteel. Created for myself to learn Rimworld Modding!</description>
 	<url>https://github.com/SeptismJustinn/RWMod-Grow-Ores/releases/latest</url>
-	<supportedVersions><li>1.4</li></supportedVersions>
+	<supportedVersions><li>1.4</li><li>1.5</li></supportedVersions>
 	<loadAfter>
 		<li>Ludeon.RimWorld</li>
 	</loadAfter>
