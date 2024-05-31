@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="PlantBase">
+      <defName>GrowableOres_PlasteelCrop</defName>
+      <label>plasteel crops</label>
+      <description>Scatter feed infused with mildly radioactive isotopes to attract tiny burrowing insects to tunnel towards the surface, pushing potentially valuable materials along with them.</description>
+      <statBases>
+        <MaxHitPoints>85</MaxHitPoints>
+        <Flammability>0</Flammability>
+        <Nutrition>0.1</Nutrition>
+      </statBases>
+      <graphicData>
+        <texPath>Crops/Grown/Plasteel</texPath>
+        <graphicClass>Graphic_Random</graphicClass>
+      </graphicData>
+      <selectable>true</selectable>
+      <pathCost>14</pathCost>
+      <ingestible />
+      <plant>
+        <growDays>30</growDays>
+        <sowWork>400</sowWork>
+        <harvestWork>400</harvestWork>
+        <harvestTag>Standard</harvestTag>
+        <harvestedThingDef>GrowableOres_PlasteelNuggets</harvestedThingDef>
+        <!-- Yield full plasteel for now, find a way to create nugget defs -->
+        <harvestYield>4</harvestYield>
+        <neverBlightable>true</neverBlightable>
+        <sowMinSkill>15</sowMinSkill>
+        <sowTags>
+          <li>Ground</li>
+          <li>Hydroponic</li>
+        </sowTags>
+        <topWindExposure>0.1</topWindExposure>
+        <immatureGraphicPath>Crops/Immature/Plasteel</immatureGraphicPath>
+        <visualSizeRange>0.3~1.0</visualSizeRange>
+        <wildOrder>3</wildOrder>
+        <pollution>Any</pollution>
+      </plant>
+    </ThingDef>
+
+  </Defs>

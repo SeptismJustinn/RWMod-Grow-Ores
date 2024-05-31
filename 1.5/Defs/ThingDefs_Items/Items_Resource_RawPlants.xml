@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="OrganicProductBase">
+    <defName>GrowableOres_PlasteelNuggets</defName>
+    <label>plasteel nuggets</label>
+    <description>Clumps of Plasteel, freshly removed from the earth. Needs to be refined at a foundry to remove impurities.</description>
+    <possessionCount>10</possessionCount>
+    <graphicData>
+      <texPath>Items/Harvest/Plasteel</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1</MarketValue>
+      <Mass>0.05</Mass>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+    </statBases>
+    <!-- Just because I have no idea how to create a new category -->
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
+  </ThingDef>
+
+</Defs>
